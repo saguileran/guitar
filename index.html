@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudiar Escalas Musicales</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Estudiar Escalas Musicales</h1>
+  <div id="noteDisplay"></div>
+  <div id="scaleDisplay"></div>
+  <button id="startButton">Start</button>
+  <label for="speedInput">Velocidad de cambio (segundos):</label>
+  <input type="number" id="speedInput" min="1" value="5">
+  <div>
+    <label>Seleccionar escalas:</label><br>
+    <h3>Modos Naturales:</h3>
+    <input type="checkbox" id="naturalModesSelectAll">
+    <label for="naturalModesSelectAll">Seleccionar todos los modos naturales</label><br>
+    <input type="checkbox" class="naturalMode" value="Modo Jónico" checked>
+    <label>Modo Jónico</label><br>
+    <input type="checkbox" class="naturalMode" value="Modo Dórico" checked>
+    <label>Modo Dórico</label><br>
+    <input type="checkbox" class="naturalMode" value="Modo Frigio" checked>
+    <label>Modo Frigio</label><br>
+    <input type="checkbox" class="naturalMode" value="Modo Lidio" checked>
+    <label>Modo Lidio</label><br>
+    <input type="checkbox" class="naturalMode" value="Modo Mixolidio" checked>
+    <label>Modo Mixolidio</label><br>
+    <input type="checkbox" class="naturalMode" value="Modo Eólico" checked>
+    <label>Modo Eólico</label><br>
+    <input type="checkbox" class="naturalMode" value="Modo Locrio" checked>
+    <label>Modo Locrio</label><br>
+    
+    <h3>Modos de la Escala Menor Armónica:</h3>
+    <input type="checkbox" id="harmonicMinorModesSelectAll">
+    <label for="harmonicMinorModesSelectAll">Seleccionar todos los modos de la Escala Menor Armónica</label><br>
+    <input type="checkbox" class="harmonicMinorMode" value="Escala Menor Armónica" checked>
+    <label>Escala Menor Armónica</label><br>
+    <!-- Agregar los otros modos de la Escala Menor Armónica aquí -->
+    <input type="checkbox" class="harmonicMinorMode" value="Modo Locrio n6" checked>
+    <label>Modo Locrio n6</label><br> 
+    <input type="checkbox" class="harmonicMinorMode" value="Modo Jónico #5" checked>
+    <label>Modo Jónico #5</label><br>
+    <input type="checkbox" class="harmonicMinorMode" value="Modo Dórico #4" checked>
+    <label>Modo Dórico #4</label><br>
+    <input type="checkbox" class="harmonicMinorMode" value="Modo Mixolidio b9b13" checked>
+    <label>Modo Mixolidio b9b13</label><br>
+    <input type="checkbox" class="harmonicMinorMode" value="Modo Lidio #9" checked>
+    <label>Modo Lidio #9</label><br>
+    <input type="checkbox" class="harmonicMinorMode" value="Modo Armonico Disminuido" checked>
+    <label>Modo Armonico Disminuido</label><br>
+    
+    <h3>Modos de la Escala Menor Melódica:</h3>
+    <input type="checkbox" id="melodicMinorModesSelectAll">
+    <label for="melodicMinorModesSelectAll">Seleccionar todos los modos de la Escala Menor Melódica</label><br>
+    <input type="checkbox" class="melodicMinorMode" value="Escala Menor Melódica" checked>
+    <label>Escala Menor Melódica</label><br>
+    <input type="checkbox" class="melodicMinorMode" value="Modo Dórico b2" checked>
+    <label>Modo Dórico b2</label><br>
+    <input type="checkbox" class="melodicMinorMode" value="Modo Lidio Aumentado" checked>
+    <label>Modo Lidio Aumentado</label><br>
+    <input type="checkbox" class="melodicMinorMode" value="Modo Lidio b7" checked>
+    <label>Modo Lidio b7</label><br>
+    <input type="checkbox" class="melodicMinorMode" value="Modo Mixolidio b13" checked>
+    <label>Modo Mixolidio b13</label><br>
+    <input type="checkbox" class="melodicMinorMode" value="Modo Locrio n9" checked>
+    <label>Modo Locrio n9</label><br>
+    <input type="checkbox" class="melodicMinorMode" value="Modo Alterada" checked>
+    <label>Modo Alterada</label><br>
+    <!-- Agregar las escalas de la Escala Menor Melódica aquí -->
+
+ <h3>Escalas Pentatónicas:</h3>
+    <input type="checkbox" id="pentatonicModesSelectAll">
+    <label for="pentatonicModesSelectAll">Seleccionar todas las escalas pentatónicas</label><br>
+    <!-- Incluir casillas de verificación para cada escala pentatónica -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,8 @@
+/* Estilos opcionales */
+h1 {
+  text-align: center;
+}
+
+#noteDisplay, #scaleDisplay {
+  margin-bottom: 10px;
+}
